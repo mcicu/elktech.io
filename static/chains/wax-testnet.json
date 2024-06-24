@@ -1,0 +1,71 @@
+{
+  "producer_account_name": "elktechprime",
+  "org": {
+    "candidate_name": "ELKTech",
+    "website": "https://elktech.io",
+    "code_of_conduct": "https://elktech.io/code-of-conduct",
+    "ownership_disclosure": "https://elktech.io/ownership-disclosure",
+    "github_user": [
+      "mcicu"
+    ],
+    "phone": "WAX_Registry",
+    "email": "hello@elktech.io",
+    "branding": {
+      "logo_256": "https://elktech.io/images/logo-256.png",
+      "logo_1024": "https://elktech.io/images/logo-1024.png",
+      "logo_svg": "https://elktech.io/images/logo.svg"
+    },
+    "location": {
+      "name": "Bucharest",
+      "country": "RO",
+      "latitude": 44.439663,
+      "longitude": 26.096306
+    },
+    "social": {
+      "steemit": "elktech",
+      "twitter": "elktech",
+      "github": "elktech",
+      "reddit": "elktech",
+      "keybase": "elktech",
+      "telegram": "elktech"
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "Helsinki",
+        "country": "FI",
+        "latitude": 60.192059,
+        "longitude": 24.945831
+      },
+      "node_type": "producer"
+    },
+    {
+      "location": {
+        "name": "Helsinki",
+        "country": "FI",
+        "latitude": 60.192059,
+        "longitude": 24.945831
+      },
+      "node_type": "query",
+      "full": false,
+      "features": [
+        "chain-api",
+        "account-query"
+      ],
+      "api_endpoint": "http://wax.testnet.elktech.io",
+      "ssl_endpoint": "https://wax.testnet.elktech.io"
+    },
+    {
+      "location": {
+        "name": "Helsinki",
+        "country": "FI",
+        "latitude": 60.192059,
+        "longitude": 24.945831
+      },
+      "node_type": "seed",
+      "full": false,
+      "p2p_endpoint": "wax.testnet.elktech.io:9877"
+    }
+  ]
+}
