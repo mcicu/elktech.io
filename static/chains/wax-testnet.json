@@ -51,7 +51,9 @@
       "full": false,
       "features": [
         "chain-api",
-        "account-query"
+        "account-query",
+        "hyperion-v2",
+        "history-v1"
       ],
       "api_endpoint": "http://wax.testnet.elktech.io",
       "ssl_endpoint": "https://wax.testnet.elktech.io"
